@@ -1,4 +1,4 @@
---Write a SQL script that creates a table users
+-- Write a SQL script that creates a table users
 DROP TABLE IF EXISTS users;
 
 
