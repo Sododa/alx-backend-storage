@@ -32,7 +32,6 @@ def data_cacher(method: Callable) -> Callable:
 
 @data_cacher
 def get_page(url: str) -> str:
-    '''Returns the content of a URL after caching the request's response,
-    and tracking the request.
+    '''get page
     '''
     return requests.get(url).text
